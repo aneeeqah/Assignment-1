@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+
+section{
+    margin: 0;
+    height: 700px;
+    background-image: url("donation9\ new.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg{
+    text-align: center;
+    color: #ffffff;
+    width: fit-content;
+    margin: auto;
+}
+
+.link-button{
+    height: 100px;
+    width: 100px;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 50x;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
