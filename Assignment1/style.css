@@ -6,27 +6,196 @@ h1{
 }
 
 section{
-    margin: 0;
+    margin-bottom: 100px;
+}
+.banner{
+    margin-top: 0;
     height: 700px;
     background-image: url("donation9\ new.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .bgimg{
+   
     text-align: center;
-    color: #ffffff;
+    color: white;
     width: fit-content;
-    margin: auto;
+    margin:250px auto ;
+    
+   
+
+}
+.text-center{
+    text-align: center;
+    
+
 }
 
-.link-button{
-    height: 100px;
-    width: 100px;
+.button{
     text-decoration: none;
     background-color: #FF5959;
-    padding: 10px 50x;
-    color: #ffffff;
+    padding: 6px;
+    color: white;
     border-radius: 5px;
+    margin-top: 30px;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(120, 4, 4));
+    box-shadow:2px 2px 2px #FF5959 ;
+    box-s
+}
+.donation{
+    margin:100px auto 100px;
+    
+}
+
+.donation-txt{
+    text-align: center;
+}
+
+.amount{
+  text-align: center;
+  margin: 50px 0;
+
+}
+
+.amount-link{
+
+    background-color: rgb(195, 193, 193);
+    padding:20px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius:5px;
+    color:rgb(53, 54, 54);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.amount-link:hover{
+
+    border:2px solid tomato;
+    background-color: rgb(238, 170, 158);
+    color: rgb(184, 50, 26);
+    
+
+}
+
+.amount-input{
+    border:none ;
+    border-bottom: 1px solid grey;
+    width:40%;
+    margin-left: 450px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+input[type=text]:focus{
+    text-align: center;
+    margin:auto;
+    outline: none;
+    border-bottom: 2px solid tomato;
+}
+
+.donate-plan{
+    text-align: center;
+}
+
+.donate-plan-card{
+    display: flex;
+    margin-top: 30px;
+    margin-left:215px;
+}
+.donate-plan{
+    align-items: center;
+}
+.card{
+    align-self: center;
+    text-align: left;
+    width:20%;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    height:200px ;
+}
+#card-1{
+    background-color: #60b6bf;
+
+}
+#card-1{
+    background-color: #d3b3b3;
+
+}
+
+#card-2{
+    background-color: #f4c5f265;
+
+}
+#card-3{
+    background-color: rgba(243, 240, 209, 0.396);
+
+}
+.banner-bottom{
+    display:flex;
+    margin-top:100px;
+    margin-left: 180px;
+}
+.half-width{
+    width:35%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.newsletter{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 130px;
+   
+
+}
+
+.email{
+    margin-left: 300px;
+    width:50%;
+    height: 100px;
+    margin-top: 30px;
+   padding: auto;
+    background-color: rgba(245, 207, 160, 0.564);
+    text-align: center;
+}
+.emailinput{
+  margin-top: 30px;
+  border:none;
+  background-color: rgb(247, 246, 246);
+  height:30px;
+  border-radius: 5px;
+  margin-right: -5px;
+  padding-left: 8px;
+}
+
+.marquee{
+    font-size: 20px;
+    color: black;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(24, 25, 33);
+    padding:15px;
+    color: azure;
+}
+
+input[type=email]:focus{
+
+    outline: none;
+    border:1px solid #FF5959;
 
 }
